@@ -1,20 +1,31 @@
-# Foundation Compass Template
+# True Life Bible-Presbyterian Church Wordpress Theme
 
-The easiest way to get started with Foundation + Compass.
+Built for Wordpress v4.2.2
 
-## Requirements
+## Dev Env
 
-  * Ruby 1.9+
-  * [Node.js](http://nodejs.org)
-  * [compass](http://compass-style.org/): `gem install compass`
-  * [bower](http://bower.io): `npm install bower -g`
+  * LAMP stack
+  * Ruby (2.1.X)
+  * Foundation, Compass gems
 
 ## Quickstart
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
+  * Set up your LAMP stack with [Vagrant (scotchbox)](https://box.scotch.io/)
+  * Download the latest [Wordpress installation](https://wordpress.org/) and run it in /public
+  * Clone this bare bones theme into your themes folder and start hacking!
   
-Then when you're working on your project, just run the following command:
+## CSS Architecture
+
+  * /base
+  * /components
+  * /layout
+  * /pages
+  * /themes
+  * /utils
+  * /vendors <- e.g. Foundation components, Fontawesome etc.
+  * main.scss
+
+Run the following command in the theme folder to compile:
 
 ```bash
 bundle exec compass watch
