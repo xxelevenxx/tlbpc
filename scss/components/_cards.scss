@@ -1,0 +1,27 @@
+.card {
+	background: $white;
+	overflow: hidden;
+	padding: rem-calc(15);
+	border-radius: rem-calc(5);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+	text-align: left;
+}
+
+ul.card {
+	margin: 0 0 1.25em 0;
+	list-style: none;
+}
+
+.card li.title {
+	font-size: em-calc(18);
+	font-family: $titlefont;
+}
+
+.card-border li {
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+}
+
+.card-border li:last-child {
+	border-bottom: none;
+}

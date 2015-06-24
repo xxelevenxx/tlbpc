@@ -1,0 +1,38 @@
+.contain-to-grid {
+	background: $white;
+}
+
+.contain-to-grid .top-bar {
+	background: #FFFFFF;
+	height: em-calc(60);
+	border-bottom: 2px solid #333;
+}
+
+.tab-bar {
+	background: #FFFFFF;
+	height: em-calc(60);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+	color: $primary-color;
+	margin-bottom: em-calc(20);
+}
+
+.left-small {
+	border: none;
+	height: em-calc(60);
+}
+
+.tab-bar .menu-icon {
+  height: 3.75rem;
+}
+
+.tab-bar .menu-icon span::after {
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.5rem;
+  left: 0.90625rem;
+  box-shadow: 0 0 0 2px $primary-color, 0 8px 0 2px $primary-color, 0 16px 0 2px $primary-color;
+  width: 1.25rem;
+}
