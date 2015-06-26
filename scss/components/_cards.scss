@@ -1,10 +1,14 @@
 .card {
 	background: $white;
 	overflow: hidden;
-	padding: rem-calc(15);
-	border-radius: rem-calc(5);
-	border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+	padding: rem-calc(20);
+	box-shadow: 2px 3px 3px -2px rgba(0, 0, 0, 0.1);
 	text-align: left;
+}
+
+.columns {
+	margin: 0 0 rem-calc(20) 0;
+	padding: 0 rem-calc(10);
 }
 
 ul.card {
@@ -13,15 +17,27 @@ ul.card {
 }
 
 .card li.title {
-	font-size: em-calc(18);
+	font-size: rem-calc(21);
 	font-family: $titlefont;
+	font-weight: bold;
+	padding-top: 0;
+}
+
+.card li p {
+	margin-bottom: 0;
 }
 
 .card-border li {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #e0e0e0;
 	width: 100%;
+	min-height: rem-calc(50);
+	padding: 10px 0;
 }
 
 .card-border li:last-child {
 	border-bottom: none;
+}
+
+.card-border li.title {
+	border-bottom-color: #AAA;
 }

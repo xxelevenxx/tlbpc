@@ -1,0 +1,81 @@
+.one {
+	height: rem-calc(77);
+	position:relative;
+	background: $white;
+	width: 100%;
+	margin-bottom: rem-calc(50);
+	border-bottom: 2px solid rgba(0, 0, 0, .12);
+}
+
+.two {
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 62.5rem;
+	box-sizing: border-box;
+}
+
+.three {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.four {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.five {
+	display: inline-block;
+	text-align: center;
+}
+
+ul.six {
+	margin: 0px;
+	padding: 0px;
+	list-style: outside none none;
+	float: left;
+}
+
+li.seven {
+	float: left;
+	text-align: left;
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+}
+
+a.eight {
+	display: block;
+	height: 120px;
+	line-height: 77px;
+	box-sizing: border-box;
+	text-decoration: none;
+	padding: 0px 20px;
+	color: $primary-color;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.six > li > a {
+	padding: 0 rem-calc(20);
+	margin: 0 rem-calc(20);
+}
+
+.six > li > a:hover {
+	background-color: rgba(42, 93, 132, 0.5);
+}
+
+.logo {
+		background-image: url(../img/main_logobg.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 120px;
+		height: auto;
+		position: relative;
+		top: 10px;
+}
